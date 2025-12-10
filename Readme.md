@@ -24,3 +24,25 @@ models : these are the basic general sytax which will be used for getting the in
 routes : for being able to successfully do the routing of the website to the requested page 
 
 utils : these are like utilites which are like common functionalites which will be used at any point of time in any place of the code .
+
+
+there are mainly 2 ways in creating a connection with the database where we write the entire connection code inside of the server.js file : which when triggered using nodemon calls the function of the database and hence finaly i will be able to access . 
+
+the second approcah would be create a seperate foleder db and write the entire logic inside it and export the function and access it in the server.js file . which makes the code to be more distributed and modular for easy error clarification etc .
+
+app is connected through express 
+db is connected through mongoose 
+
+there are major technicalities that has to kept in mind while wrtting the db code :
+
+1. they are always present in some different part of the world hence there might be a delay in the req and response hence use : async await and try catch blocks of code .
+
+A code of:
+
+0 → success / normal exit
+
+1 → error / failure
+
+So process.exit(1) means:
+
+“Stop the app now. Something went wrong.”
