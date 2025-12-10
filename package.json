@@ -1,0 +1,16 @@
+{
+  "name": "backenddevcourse",
+  "version": "1.0.0",
+  "description": "final high level learning stage of backend development",
+  "keywords": [
+    "javascript",
+    "backend"
+  ],
+  "license": "ISC",
+  "author": "ganeshTadiboina",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
